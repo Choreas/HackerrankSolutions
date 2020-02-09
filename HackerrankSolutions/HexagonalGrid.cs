@@ -6,10 +6,8 @@ using System.Collections;
 
 public static class HexagonalGrid
 {
-
     private static bool tile(List<int> a, List<int> b, string row, int fieldIdx, int blockedIdx, string blockedRow)
     {
-
         if (row.Equals("a", StringComparison.OrdinalIgnoreCase))
         {// row a
             if (fieldIdx + 1 == a.Count && a.ElementAt(fieldIdx) == 1)
@@ -34,7 +32,6 @@ public static class HexagonalGrid
                     {
                         return true;
                     }
-
                 }
             }
             else if (fieldIdx + 1 == a.Count)
