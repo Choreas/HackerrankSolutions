@@ -8,7 +8,7 @@ namespace ConsoleTester
     {      
         static void Main(string[] args)
         {
-            gradingStudents();
+            appleAndOrange();
         }
 
         static void hexagonalGrid()
@@ -24,6 +24,18 @@ namespace ConsoleTester
             {
                 Console.WriteLine(i.ElementAt(ii));
             }
+        }
+
+        static void appleAndOrange()
+        {
+            int s = 7;
+            int t = 11;
+            int a = 5;
+            int b = 15;
+            int[] apples = new int[] { -2, 2, 1 };
+            int[] oranges = new int[] { 5, -6 };            
+
+            AppleAndOrange.countApplesAndOranges(s, t, a, b, apples, oranges);
         }
     }
 }
