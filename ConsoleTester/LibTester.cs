@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 
+using HackerrankSolutions;
+
 namespace ConsoleTester
 {
     class LibTester
     {      
         static void Main(string[] args)
         {
-            breakingRecords();
+            birthdayChocolate();
         }
 
         static void hexagonalGrid()
@@ -73,6 +75,17 @@ namespace ConsoleTester
             int[] result = BreakingRecords.breakingRecords(scores);
             Console.WriteLine("Breaking Records");
             Console.WriteLine(result[0] + " " + result[1]);
+        }
+
+        static void birthdayChocolate()
+        {            
+            List<int> s = new List<int> { 1, 2, 1, 3, 2 };
+            int d = 3;
+            int m = 2;
+           
+            int result = BirthdayChocolate.birthday(s, d, m);
+            Console.WriteLine("Birthday Chocolate");
+            Console.WriteLine(result);
         }
     }
 }
