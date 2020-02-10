@@ -10,7 +10,7 @@ namespace ConsoleTester
     {      
         static void Main(string[] args)
         {
-            birthdayChocolate();
+            divisibleSumPairs();
         }
 
         static void hexagonalGrid()
@@ -85,6 +85,18 @@ namespace ConsoleTester
            
             int result = BirthdayChocolate.birthday(s, d, m);
             Console.WriteLine("Birthday Chocolate");
+            Console.WriteLine(result);
+        }
+
+        static void divisibleSumPairs()
+        {           
+            int n = 6;
+            int k = 3;
+            int[] ar = new int[] { 1, 3, 2, 6, 1, 2 };
+
+            int result = DivisibleSumPairs.divisibleSumPairs(n, k, ar);
+
+            Console.WriteLine("Divisible Sum Pairs");
             Console.WriteLine(result);
         }
     }
