@@ -5,8 +5,7 @@ using System.Linq;
 namespace ConsoleTester
 {
     class LibTester
-    {
-        
+    {      
         static void Main(string[] args)
         {
             gradingStudents();
