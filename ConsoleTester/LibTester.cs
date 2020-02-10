@@ -13,11 +13,13 @@ namespace ConsoleTester
 
         static void hexagonalGrid()
         {
+            Console.WriteLine("Hexagonal Grid");
             Console.WriteLine(HexagonalGrid.hexagonalGrid("110", "110"));
         }
 
         static void gradingStudents()
         {
+            Console.WriteLine("gradingStudents");
             List<int> i = new List<int> {73,67,38,33 };
             i = GradingStudents.gradingStudents(i);
             for(int ii = 0; ii < i.Count; ii++)
@@ -33,8 +35,9 @@ namespace ConsoleTester
             int a = 5;
             int b = 15;
             int[] apples = new int[] { -2, 2, 1 };
-            int[] oranges = new int[] { 5, -6 };            
+            int[] oranges = new int[] { 5, -6 };
 
+            Console.WriteLine("Apple and Orange");
             AppleAndOrange.countApplesAndOranges(s, t, a, b, apples, oranges);
         }
 
@@ -49,6 +52,7 @@ namespace ConsoleTester
 
             string result = Kangaroo.kangaroo(x1, v1, x2, v2);
 
+            Console.WriteLine("Kangaroo");
             Console.WriteLine(result);
         }
     }
