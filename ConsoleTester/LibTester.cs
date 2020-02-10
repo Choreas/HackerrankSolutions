@@ -8,7 +8,7 @@ namespace ConsoleTester
     {      
         static void Main(string[] args)
         {
-            kangaroo();
+            betweenTwoSets();
         }
 
         static void hexagonalGrid()
@@ -54,6 +54,17 @@ namespace ConsoleTester
 
             Console.WriteLine("Kangaroo");
             Console.WriteLine(result);
+        }
+
+        public static void betweenTwoSets()
+        {
+            List<int> arr = new List<int> {2,4 };
+            List<int> brr = new List<int> { 16, 32, 96 };
+
+            int total = BetweenTwoSets.getTotalX(arr, brr);
+
+            Console.WriteLine("Between Two Sets");
+            Console.WriteLine(total);
         }
     }
 }
