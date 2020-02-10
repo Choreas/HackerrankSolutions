@@ -8,7 +8,7 @@ namespace ConsoleTester
     {      
         static void Main(string[] args)
         {
-            betweenTwoSets();
+            breakingRecords();
         }
 
         static void hexagonalGrid()
@@ -65,6 +65,14 @@ namespace ConsoleTester
 
             Console.WriteLine("Between Two Sets");
             Console.WriteLine(total);
+        }
+
+        static void breakingRecords()
+        {
+            int[] scores = new int[] { 10, 5, 20, 20, 4, 5, 2, 25, 1 };
+            int[] result = BreakingRecords.breakingRecords(scores);
+            Console.WriteLine("Breaking Records");
+            Console.WriteLine(result[0] + " " + result[1]);
         }
     }
 }
