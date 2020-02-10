@@ -10,7 +10,7 @@ namespace ConsoleTester
     {      
         static void Main(string[] args)
         {
-            divisibleSumPairs();
+            migratoryBirds();
         }
 
         static void hexagonalGrid()
@@ -97,6 +97,16 @@ namespace ConsoleTester
             int result = DivisibleSumPairs.divisibleSumPairs(n, k, ar);
 
             Console.WriteLine("Divisible Sum Pairs");
+            Console.WriteLine(result);
+        }
+
+        static void migratoryBirds()
+        {
+            List<int> arr = new List<int>() {2,1,2};
+
+            int result = MigratoryBirds.migratoryBirds(arr);
+
+            Console.WriteLine("Migratory Birds");
             Console.WriteLine(result);
         }
     }
