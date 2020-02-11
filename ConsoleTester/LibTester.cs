@@ -10,7 +10,7 @@ namespace ConsoleTester
     {      
         static void Main(string[] args)
         {
-            dayOfTheProgrammer();
+            bon_Appétit();
         }
 
         static void hexagonalGrid()
@@ -118,6 +118,15 @@ namespace ConsoleTester
 
             Console.WriteLine("Day of the Programmer");
             Console.WriteLine(result);
+        }
+
+        static void bon_Appétit()
+        {
+            int k = 1;
+            List<int> bill = new List<int>() { 3, 10, 2, 9, };
+            int b = 7;
+            Console.WriteLine("Bon_Appétit");
+            Bon_Appétit.bonAppetit(bill, k, b);
         }
     }
 }
