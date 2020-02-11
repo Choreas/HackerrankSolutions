@@ -10,7 +10,7 @@ namespace ConsoleTester
     {      
         static void Main(string[] args)
         {
-            migratoryBirds();
+            dayOfTheProgrammer();
         }
 
         static void hexagonalGrid()
@@ -107,6 +107,16 @@ namespace ConsoleTester
             int result = MigratoryBirds.migratoryBirds(arr);
 
             Console.WriteLine("Migratory Birds");
+            Console.WriteLine(result);
+        }
+
+        static void dayOfTheProgrammer()
+        {
+            int year = 2016;
+
+            string result = DayOfTheProgrammer.dayOfProgrammer(year);
+
+            Console.WriteLine("Day of the Programmer");
             Console.WriteLine(result);
         }
     }
