@@ -1,2 +1,2 @@
 # HackerrankSolutions
-Soltions for hackerrank.com excercies.
+Solutions for hackerrank.com excercies.
