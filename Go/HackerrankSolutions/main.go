@@ -1,11 +1,21 @@
 package main
 
 import (
-	"github.com/Choreas/HackerrankSolutions/HackerrankSolutions/Algorithms/Implementation/implementation"
 	"fmt"
+
+	"github.com/Choreas/HackerrankSolutions/HackerrankSolutions/Algorithms/implementation"
 )
 
 func main() {
-	var i := implementation.DrawingBook()
-	fmt.Println(i)
+	drawingBook()
+}
+
+func drawingBook() {
+	fmt.Println("Drawing Book")
+
+	var result int32
+	var pages int32 = 5
+	var pagesToTurn int32 = 4
+	result = implementation.PageCount(pages, pagesToTurn)
+	fmt.Println(result)
 }
