@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using HackerrankSolutions;
+using HackerrankSolutions.Algorithms.GameTheory;
 
 namespace ConsoleTester
 {
