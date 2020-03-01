@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	drawingBook()
+	countingValleys()
 }
 
 func drawingBook() {
@@ -18,4 +18,12 @@ func drawingBook() {
 	var pagesToTurn int32 = 4
 	result = implementation.PageCount(pages, pagesToTurn)
 	fmt.Println(result)
+}
+
+func countingValleys() {
+	fmt.Println("Counting Valleys")
+	var n int32 = 8
+	var s string = "UDDDUDUU"
+
+	fmt.Println(implementation.CountingValleys(n, s))
 }
