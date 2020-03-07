@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace HackerrankSolutions
+namespace Practice.Algorithms.Implementation
 {
     public static class Bon_Appétit
     {

@@ -4,7 +4,7 @@ import (
 	"strings"
 )
 
-// CountingValleys solution.
+// CountingValleys returns completely passed valleys.
 func CountingValleys(n int32, s string) int32 {
 	var level int = 0
 	var ar = strings.Split(s, "")

@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-using HackerrankSolutions;
-using HackerrankSolutions.Algorithms.GameTheory;
+using Practice.Algorithms.GameTheory;
+using Practice.Algorithms.Implementation;
+using Practice.Algorithms.DynamicProgramming;
 
 namespace ConsoleTester
 {

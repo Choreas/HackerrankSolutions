@@ -1,5 +1,4 @@
-﻿
-namespace HackerrankSolutions
+﻿namespace Practice.Algorithms.Implementation
 {
     public static class DivisibleSumPairs
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HackerrankSolutions.Algorithms.GameTheory
+namespace Practice.Algorithms.GameTheory
 {
     class GameOfStones
     {

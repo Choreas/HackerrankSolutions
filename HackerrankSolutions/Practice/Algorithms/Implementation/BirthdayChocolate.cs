@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HackerrankSolutions
+namespace Practice.Algorithms.Implementation
 {
-     /**
-     * Loop through s, for each Element[s] add the next m Elements[s] and check if result == d.
-     **/
+    /**
+    * Loop through s, for each Element[s] add the next m Elements[s] and check if result == d.
+    **/
     public static class BirthdayChocolate
     {
         public static int birthday(List<int> s, int d, int m)

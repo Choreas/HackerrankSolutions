@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System;
 
-namespace HackerrankSolutions
+namespace Practice.Algorithms.Implementation
 {
     public static class MigratoryBirds
     {
