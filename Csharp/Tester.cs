@@ -6,9 +6,9 @@ using Practice.Algorithms.GameTheory;
 using Practice.Algorithms.Implementation;
 using Practice.Algorithms.DynamicProgramming;
 
-namespace ConsoleTester
+namespace CsharpTester
 {
-    class LibTester
+    class Tester
     {      
         static void Main(string[] args)
         {

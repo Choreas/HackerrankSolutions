@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Choreas/HackerrankSolutions/HackerrankSolutions/Algorithms/implementation"
+	implementation "github.com/Choreas/HackerrankSolutions/HackerrankSolutions/Practice/Algorithms/Implementation/go"
 )
 
 func main() {
