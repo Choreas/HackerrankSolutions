@@ -29,3 +29,23 @@ func TestCountingValleys(t *testing.T) {
 		t.Errorf("%v != %v\n", res, exp)
 	}
 }
+
+func TestElectronicsShop(t *testing.T) {
+
+	cases := []struct {
+		budget    int32
+		keyboards []int32
+		drives    []int32
+		exp       int32
+	}{
+		{10, []int32{3, 1}, []int32{5, 2, 8}, 9},
+		{5, []int32{4}, []int32{5}, -1},
+	}
+
+	for _, tc := range cases {
+		res := implementation.GetMoneySpent(tc.keyboards, tc.drives, tc.budget)
+		if res != tc.exp {
+			t.Errorf("%s: Result was incorrect, got: %d, expected: %d.", "Electronics Shop", res, tc.exp)
+		}
+	}
+}
