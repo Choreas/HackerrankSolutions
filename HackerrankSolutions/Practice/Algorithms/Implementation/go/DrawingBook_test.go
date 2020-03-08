@@ -2,7 +2,7 @@ package implementation
 
 import "testing"
 
-func drawingBook(t *testing.T) {
+func TestPageCount(t *testing.T) {
 	var (
 		pages  int32 = 5
 		toTurn int32 = 4
