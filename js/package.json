@@ -1,0 +1,9 @@
+{
+  "name": "jstester",
+  "version": "0.0.0",
+  "description": "JSTester",
+  "main": "app.js",
+  "author": {
+    "name": "Choreas"
+  }
+}

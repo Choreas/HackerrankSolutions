@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	implementation "github.com/Choreas/HackerrankSolutions/HackerrankSolutions/Practice/Algorithms/Implementation/go"
-	warmup "github.com/Choreas/HackerrankSolutions/HackerrankSolutions/Practice/InterviewPreparationKit/Warm-upChallenges"
+	implementation "github.com/Choreas/HackerrankSolutions/Solutions/Practice/Algorithms/Implementation/go"
+	warmup "github.com/Choreas/HackerrankSolutions/Solutions/Practice/InterviewPreparationKit/Warm-upChallenges/go"
 )
 
 func main() {

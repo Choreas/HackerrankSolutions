@@ -92,6 +92,8 @@ StyleCopReport.xml
 *.scc
 *.sln
 *.csproj
+*.njsproj
+*.sln
 
 # Chutzpah Test files
 _Chutzpah*
